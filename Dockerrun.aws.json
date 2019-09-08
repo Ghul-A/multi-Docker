@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": 2, 
+  "containerDefinitions": [
+     {
+       "name": "Client",
+       "image": "Ghul-A/multi-client",
+       "hostname": "client",
+       "essential": false   
+     }
+   ]
+}
